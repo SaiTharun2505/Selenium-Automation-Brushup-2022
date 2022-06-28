@@ -321,15 +321,16 @@ public class Aped_Base_Page
 				{Reel1[reel1_RN+2],Reel2[reel2_RN+2],Reel3[reel3_RN+2]}};
 		if(s==0)
 		{
-			System.out.print("Matrix[] : ");
+			System.out.println("Matrix[] : ");
 			for(int i=0; i<=2; i++)
 			{
 				for(int j=0; j<=2; j++)
 				{
+					System.out.print("             ");
 					System.out.print(Matrix[i][j]);
 					if(j==2)
 					{
-						System.out.print(";");
+						System.out.println("");
 					}
 					if(i==2 && j==2)
 					{
